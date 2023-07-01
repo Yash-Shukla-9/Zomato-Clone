@@ -1,0 +1,5 @@
+#root {
+  --border-white: rgb(232, 232, 232);
+  --primary-box-shadow: rgba(28 28 28 / 8%) 0px 2px 8px;
+  --primary-bg: rgb(255, 255, 255);
+}
