@@ -1,0 +1,12 @@
+.filteritem {
+  padding: 8px;
+  display: flex;
+  background-color: var(--primary-bg);
+  color: var(--filter-color);
+  border: 1px solid grey;
+  border-radius: 8px;
+  margin: 10px 10px 10px 0px;
+  align-items: center;
+  font-size: 14px;
+  gap: 8px;
+}

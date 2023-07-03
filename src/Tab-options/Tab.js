@@ -1,5 +1,6 @@
 import React from "react";
 import "./Tab.css";
+// import { tab } from "@testing-library/user-event/dist/tab";
 const tabs = [
   {
     id: 1,
@@ -35,9 +36,36 @@ const tabs = [
 function Tab({ activeTab, SetActiveTab }) {
   return (
     <div className="TabOption">
-      <div className="max-width OptionWrap cursor-point ">
+      <div className="max-width OptionWrap cursor-point  ">
         {tabs.map((item) => {
-          return <div className="OptionName">{item.name}</div>;
+          return (
+            <div
+              className={`Tab-item cursor-point ab-center ${
+                activeTab === item.name && "active-tab"
+              }`}
+              onClick={() => {
+                SetActiveTab(item.name);
+              }}
+            >
+              <div
+                className="tab-img-container center"
+                style={{
+                  backgroundColor: `${
+                    activeTab === item.name ? item.bgColor : ""
+                  }`,
+                }}
+              >
+                <img
+                  src={
+                    activeTab === item.name ? item.activeimg : item.inActiveImg
+                  }
+                  className="tab-img"
+                  alt={tabs.name}
+                />
+              </div>
+              <div className="tab-name-div">{item.name}</div>
+            </div>
+          );
         })}
       </div>
     </div>

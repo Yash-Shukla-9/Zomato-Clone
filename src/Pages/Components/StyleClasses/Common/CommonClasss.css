@@ -9,6 +9,11 @@
   align-items: center;
 }
 
+.warp {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .ab-center {
   display: flex;
   align-items: center;
@@ -16,4 +21,16 @@
 
 .cursor-point {
   cursor: pointer;
+}
+
+.coll-title {
+  font-size: 30px;
+  color: var(--Heading-color);
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+.slick-next::before,
+.slick-prev::before {
+  color: rgb(0, 0, 0);
 }

@@ -2,4 +2,10 @@
   --border-white: rgb(232, 232, 232);
   --primary-box-shadow: rgba(28 28 28 / 8%) 0px 2px 8px;
   --primary-bg: rgb(255, 255, 255);
+  --inactive-text: #696969;
+  --inactive-color: #f8f8f8;
+  --Red-color: #ef4f5f;
+  --filter-color: #9c9c9c;
+  --Heading-color: #1c1c1c;
+  --DivBox-Shadow: rgb(0, 0, 0/8%) 0px 0px 3px 12px;
 }

@@ -1,0 +1,43 @@
+.Top-Div {
+  padding: 20px 0 30px 0;
+
+  margin-top: 50px;
+}
+
+.bg-color {
+  background-color: rgb(248, 248, 248);
+}
+
+.lex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-brands-cover {
+  height: 200px;
+  box-shadow: var(--DivBox-Shadow);
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Brands-img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 70%;
+  height: 70%;
+}
+
+.brand-title {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 18px;
+  gap: 5px;
+  /* /* justify-content: center; */
+  margin-top: 1rem;
+  align-items: center;
+}

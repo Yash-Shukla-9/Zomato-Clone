@@ -1,0 +1,9 @@
+.explore-div {
+  margin-top: 16px;
+}
+
+.grid-exp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
